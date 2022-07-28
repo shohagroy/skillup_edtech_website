@@ -362,9 +362,90 @@
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
 
+
+             
+
             <div class="col-12 col-lg-4 text-center p-3 ">
-              <a href="#" class="btn" style="background-color: white ; color:darkorange ;">Register Now</a>
+              <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background-color: white ; color:darkorange ;">Register Now</a>
+
+
+            <!-- Modal start-->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 style="color: darkorange ;" class="modal-title fw-bold " id="staticBackdropLabel">Student Register From</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <form class="row g-1">
+                      <div class="col-md-12">
+                        <label for="inputEmail4" class="form-label"></label>
+                        <input type="email" placeholder="Email" class="form-control" id="inputEmail4">
+                      </div>
+
+                      <div class="col-md-12">
+                        <label for="inputPassword4" class="form-label"></label>
+                        <input type="password" placeholder="Password" class="form-control" id="inputPassword4">
+                      </div>
+
+                      <div class="col-md-12">
+                        <label for="inputPassword4" class="form-label"></label>
+                        <input type="password" placeholder="Confirm Password" class="form-control" id="inputPassword4">
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label"></label>
+                        <input type="text" placeholder="Sure Name" class="form-control" id="inputPassword4">
+                      </div>
+
+
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label"></label>
+                        <input type="text" placeholder="Given name" class="form-control" id="inputPassword4">
+                      </div>
+
+                      <div class="col-md-12">
+                        <label for="inputPassword4" class="form-label"></label>
+                        <input type="tel" placeholder="Mobile Number" class="form-control" id="inputPassword4">
+                      </div>
+
+                      <div class="col-md-12">
+                        <label for="inputPassword4" class="form-label"></label>
+                        <input type="text" placeholder="Address" class="form-control" id="inputPassword4">
+                      </div>
+
+                      <div class="col-md-12 my-3">
+                        <select id="inputState" class="form-select">
+                          <option selected>Choose Course</option>
+                          <option>Fundamental Of UI/UX Design</option>
+                          <option>Fullstack Web Development</option>
+                          <option>Photography Basic Rules</option>
+                          <option>Javascript Basic to advanced</option>
+                          <option>Digital Marketing</option>
+                          <option>Motion Graphics</option>
+                        </select>
+                      </div>
+
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary" style="background-color: darkorange ;">Register</button>
+                      </div>
+                    </form>
+
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Understood</button>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <!-- Modal end-->
+
+
 
         </div>
       </section>
@@ -615,19 +696,25 @@
     </main>
     <!-- mian section end -->
 
+
+
+   
+
+    
+
     <footer class="container-fluid bg-black">
       <div class="row text-center">
-        <div class="col-4 m-auto text-white bg-black p-5">
-          <h3 class="fw-bold">
-            Skill-<span style="color: darkorange ;">Up</span></a>
-          </h3>
-          <p>Office - Imperial House - 3 <sup>rd</sup> Floor, Senpara Road, Ward-21, Rangpur City, Rangpur, 
-           Bangladesh</p>
+        <div class="col-12 col-sm-8 col-med-6 col-lg-4 m-auto text-white bg-black p-5">
+            <h3 class="fw-bold">
+              Skill-<span style="color: darkorange ;">Up</span></a>
+            </h3>
+            <p>Office - Imperial House - 3 <sup>rd</sup> Floor, Senpara Road, Ward-21, Rangpur City, Rangpur, 
+            Bangladesh</p>
             <div class="d-flex justify-content-center align-items-center ">
 
-              <p class="px-3">Privacy Ploicy</p>
+              <p class="px-2">Privacy Ploicy</p>
               <p>|</p>
-              <p class="px-3">Terms of use</p>
+              <p class="px-2">Terms of use</p>
         
             </div>
 
@@ -639,16 +726,9 @@
               <a class="text-white p-3" href=""><i class="fa-brands fa-instagram"></i></a>
               <a class="text-white p-3" href=""><i class="fa-brands fa-youtube"></i></i></a>
               
-        
             </div>
-
-
-
         </div>
-
       </div>
-
-
     </footer>
 
 
